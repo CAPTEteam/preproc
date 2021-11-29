@@ -2,6 +2,9 @@
 
 Pre_processing
 
+EXAMPLE : preproc "/home/capte-gpu-2/preproc/config/preproc.json"
+
+
 ## Installing the module
 
 We recommend installing this module into a dedicated Python virtual environment to avoid dependency
