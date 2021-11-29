@@ -1,0 +1,3 @@
+[console_scripts]
+preproc = preproc.cli:main
+

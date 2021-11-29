@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: preproc
+Version: 0.0.0
+Summary: preproc
+Home-page: UNKNOWN
+Author: INRAE
+License: Proprietary
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Private :: Do not Upload
+Requires-Python: <4,>=3.6
+Provides-Extra: dev
+
+Pre_processing
+
