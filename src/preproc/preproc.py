@@ -61,8 +61,7 @@ def princ(config):
         
         if file.endswith('.jpg') or file.endswith('.png') or file.endswith('.JPG') :
 
-
-            print(image_dir +'####' + config['relative_paths']['ext'] +'####' + file)
+            
             image = cv2.imread(image_dir + config['relative_paths']['ext'] + file)
             auto_result, alpha, beta = automatic_brightness_and_contrast(image)
 
