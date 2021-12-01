@@ -52,7 +52,7 @@ def princ(input_folder, config):
 
 
 
-    image_dir = input_folder
+    image_dir = str(input_folder)
 
     filelist = os.listdir(image_dir + config['relative_paths']['ext'] ) # Path images
 
