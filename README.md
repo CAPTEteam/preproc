@@ -2,7 +2,7 @@
 
 Pre_processing
 
-EXAMPLE : preproc "/home/capte-gpu-2/preproc/config/preproc.json"
+EXAMPLE : preproc "/mnt/PROCESSDATA/2021/MONS/ALPHI/Ble/149157_PHENOTOL/Session 2021-05-27 11-52-38_Phenotol/" "/home/capte-gpu-2/preproc/config/preproc.json"
 
 
 ## Installing the module
