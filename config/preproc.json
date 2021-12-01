@@ -2,8 +2,8 @@
    {
    "relative_paths":{
     "input":"/mnt/PROCESSDATA/TEMP_TEST_DEV/Simon_test/Session 2021-04-09 10-35-44/",
-    "ext":"l1/rgb_images/",
-    "out":"l1/pre_processedd/",
+    "ext":"/l1/rgb_images/",
+    "out":"/l1/pre_processedd/",
     "log":"log"
 }
 
