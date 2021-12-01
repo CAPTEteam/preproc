@@ -25,6 +25,12 @@ def create_parser():
 Pre_processing
 '''
 		)
+	
+	parser.add_argument(
+		'input_folder',
+		type=cliutils.sanitize_path,
+		help='Directory of the session you want to proces ex: "/mnt/PROCESSDATA/TEMP_TEST_DEV/Simon_test/Session 2021-02-22 09-44-37/" '
+		)
 
 
 	parser.add_argument(
@@ -59,7 +65,7 @@ def main(args=None):
 	#_LOGGER.debug('version: %s', preproc.__version__)
 
 	# Call the main function of the module
-	preproc.princ(args.configuration_file)
+	preproc.princ(args.input_folder, args.configuration_file)
 
 
 if __name__ == '__main__':
