@@ -8,7 +8,7 @@ import pathlib
 
 _LOGGER = logging.getLogger(__name__)
 
-def princ(config):
+def princ(input_folder, config):
 
     with open(config) as json_file:
             config = json.load(json_file)
@@ -52,7 +52,7 @@ def princ(config):
 
 
 
-    image_dir = config['relative_paths']['input']
+    image_dir = input_folder
 
     filelist = os.listdir(image_dir + config['relative_paths']['ext'] ) # Path images
 
